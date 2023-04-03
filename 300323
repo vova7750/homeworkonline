@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class homework300323java {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Введите случайное целое число: ");
+        int a = sc.nextInt();
+        System.out.println("Введено число " + a);
+
+
+        System.out.println(a / 2);      // 216
+        System.out.println(a % 2);          // 0
+
+        System.out.println(216 / 2);    // 108
+        System.out.println(216 % 2);        // 0
+
+        System.out.println(108 / 2);    // 54
+        System.out.println(108 % 2);        // 0
+
+        System.out.println(54 / 2);     // 27
+        System.out.println(54 % 2);         // 0
+
+        System.out.println(27 / 2);     // 13
+        System.out.println(27 % 2);         // 1
+
+        System.out.println(13 / 2);     // 6
+        System.out.println(13 % 2);         // 1
+
+        System.out.println(6 / 2);      // 3
+        System.out.println(6 % 2);          // 0
+
+        System.out.println(3 / 2);      // 1
+        System.out.println(3 % 2);          // 1
+
+        System.out.println(1 / 2);      // 0
+        System.out.println(1 % 2);
