@@ -1,0 +1,19 @@
+
+
+1 ls
+   2 mkdir animals/dog
+   3 mkdir animals/cats
+   4 mkdir animals/fish
+   5 tree
+   6 touch animals/dog/pluto
+   7 tree
+   8 touch animals/cats/garfield
+   9 touch animals/fish/nemo
+  10 tree
+  11 /tmp touch adam
+  12 touch /tmp/adam
+  13 tree
+  14 histori
+  15 history
+]
+dalshe nesnay
