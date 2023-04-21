@@ -1,0 +1,24 @@
+public class homeworkpizza {
+
+    public static void main(String[] args) {
+
+        int pizza1 = 24;
+        int pizza2 = 28;
+
+        int calories = 40;
+
+        double squarePizza1 = square(pizza1);
+        double squarePizza2 = square(pizza2);
+
+        System.out.println((squarePizza1 - squarePizza2) * calories);
+
+    }
+
+    public static double square (int diametor ) {
+
+
+
+        return Math.PI * Math.pow((diametor / 2.0), 2);
+    }
+
+}
