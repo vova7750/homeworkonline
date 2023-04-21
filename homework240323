@@ -1,0 +1,11 @@
+public class homework365 {
+    public static void main(String[] args) {
+
+        int a = 365;
+        System.out.println("sotni: " + a / 100 );
+        System.out.println("desatki: " + (a - (a / 100)*100) / 10);
+        System.out.println("odunuyyi: " + (a % 10));
+
+
+    }
+}
