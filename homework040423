@@ -1,0 +1,12 @@
+public class homeworkbox {
+
+    int w, h, d;
+
+
+    public homeworkbox(int i, int h, int d) {
+            this.w =w;
+this.h =h;
+this.d =d;
+System.out.println("Volume = "+(this.w * this.h * this.d));
+}
+    }
